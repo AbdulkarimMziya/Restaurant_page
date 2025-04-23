@@ -1,6 +1,7 @@
 // menu.js
 
 function createMenuPage() {
+    document.querySelector("#content").innerHTML = "";
     document.querySelector("#content").innerHTML = "Hello Menu Page";
 }
 
