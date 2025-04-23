@@ -52,7 +52,7 @@ nav > div:active {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
 
 } 
 
@@ -76,4 +76,28 @@ p.title {
 
 p.address {
     font-size: 1rem;
+}
+
+.section {
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.328);
+    padding: 1rem;
+    border-radius: 8px;
+
+    margin-bottom: 1rem;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.contact-section {
+    line-height: 2rem;
+}
+
+.contact-section p > span {
+    font-size: 1.1rem;
+    font-weight: bold;
 }

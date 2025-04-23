@@ -2,13 +2,13 @@
 function createRestaurantHomePage() {
     document.querySelector("#content").innerHTML = "";
     
-    const $content_container = document.querySelector("#content")
+    const $content_container = document.querySelector("#content");
     
     const div = document.createElement("div");
     div.classList.add("banner");
     
     const p1 = document.createElement("p");
-    p1.textContent = "Restaurant Title"
+    p1.textContent = "Restaurant Title";
     p1.classList.add("title");
     div.appendChild(p1);
 
